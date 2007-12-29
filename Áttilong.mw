@@ -1,32 +1,3 @@
-{| style="margin:0.0em auto; text-align:left;" class="toccolours"
-|- style="font-size:90%;"
-! rowspan="2" style="font-size:90%; text-align:left;vertical-align:center;" | [[Web colors|Web {{ #ifeq:{{lc:{{{2}}}}}|colour|colour|color}}s]]
-| width="5%" | [[áttilong]]
-| width="5%" | [[á'paka]]
-| width="5%" | [[agaga']]
-| width="5%" | [[betde]]
-| width="5%" | [[amariyu]]
-|-
-|style="background:black; "|&nbsp;
-|style="background:white; "|
-|style="background:red; "|
-|style="background:green; "|
-|style="background:yellow; "|
-|}
-
-
-<br clear=all>
-<div align=center>
-{| id="toc" style="margin: 0 0em 0 2em;"
-! style="background:#ccccff" align="center" width="90%" colspan="2" |'''Colours''' 
-|-
-| align="center" style="font-size: 90%;" colspan="2"| [[áttilong]] | [[á'paka]] | [[agaga']] | [[amariyu]] | [[betde]] 
-|}</div>
-
-
-
-
-
 {| style="margin:0.0em auto; text-align:center;" class="toccolours"
 |- style="font-size:90%;"
 | width="5%" | [[áttilong]]
