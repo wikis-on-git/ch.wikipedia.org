@@ -1,0 +1,47 @@
+{| style="margin:0.5em auto; text-align: center;" class="toccolours"
+|- style="font-size:90%;"
+! rowspan="2" style="font-size:120%; text-align:left;vertical-align:middle;" | [[Web colors|Web {{ #ifeq:{{lc:{{{1}}}}}|colour|colour|color}}s]]
+| width="5%" | [[black]]
+| width="5%" | [[grey|gray]]
+| width="5%" | [[silver (color)|silver]]
+| width="5%" | [[white]]
+| width="5%" | [[red]]
+| width="5%" | [[maroon (color)|maroon]]
+| width="5%" | [[purple]]
+| width="5%" | [[fuchsia (color)|fuchsia]]
+| width="5%" | [[green]]
+| width="5%" | [[lime (color)|lime]]
+| width="5%" | [[olive (color)|olive]]
+| width="5%" | [[yellow]]
+| width="5%" | [[gold]]
+| width="5%" | [[orange (colour)|orange]] <!-- note: CSS only -->
+| width="5%" | [[blue]]
+| width="5%" | [[navy blue|navy]]
+| width="5%" | [[teal (color)|teal]]
+| width="5%" | [[aqua (color)|aqua]]
+|-
+|style="background:black; "|&nbsp;
+|style="background:gray; "|
+|style="background:silver; "|
+|style="background:white; "|
+|style="background:red; "|
+|style="background:maroon; "|
+|style="background:purple; "|
+|style="background:fuchsia; "|
+|style="background:green; "|
+|style="background:lime; "|
+|style="background:olive; "|
+|style="background:yellow; "|
+|style="background:gold; "|
+|style="background:orange; "| <!-- note: CSS only -->
+|style="background:blue; "|
+|style="background:navy; "|
+|style="background:teal; "|
+|style="background:aqua; "|
+|}<noinclude>
+[[az:Şablon:Web renkleri]]
+[[fa:الگو:رنگ‌های وب]]
+[[ko:틀:웹 색상]]
+[[ru:Шаблон:Web colors]]
+[[tr:Şablon:Web renkleri]]
+</noinclude>
