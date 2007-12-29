@@ -1,6 +1,6 @@
-{| style="margin:5.5em auto; text-align: center;" class=""
+{| style="margin:5.5em auto; text-align: center;" class="toccolours"
 |- style="font-size:90%;"
-! rowspan="2" style="font-size:90%; text-align:right;vertical-align:middle;" | [[Web colors|Web {{ #ifeq:{{lc:{{{1}}}}}|colour|colour|color}}s]]
+! rowspan="2" style="font-size:90%; text-align:middle;vertical-align:middle;" | [[Web colors|Web {{ #ifeq:{{lc:{{{1}}}}}|colour|colour|color}}s]]
 | width="5%" | [[áttilong]]
 | width="5%" | [[á'paka]]
 | width="5%" | [[agaga']]
