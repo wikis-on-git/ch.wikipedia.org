@@ -14,7 +14,10 @@ Bienbenido para '''[[Wikipedia]]''',</h1>
 
 <div align="center">
 
+<div style="margin-top:10px; border:1px solid gray; padding:0px; background-color:#F0FFF3;">
+<div style="background-color:#AADDAA; font-size:1px; height:8px; border-bottom:1px solid #97BF87;"></div>
 {{ChamoruWikiMainMenu}}
+</div>
 
 
 <div style="margin-top:10px; border:1px solid gray; padding:5px; background-color:#dfefdf;">
