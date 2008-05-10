@@ -2,11 +2,16 @@
 <!---- Tutuhon i Mensahen Bienbenido ---->
 {{ChamoruBienbenido}}
 <!---- Uttimon i Mensahen Bienbendio ---->
-
 <!---- Tutuhon Direktorion Kategoria Siha ----->
 {{ChamoruWikiMainMenu}}
-<!---- Uttimon Direktorian Kategoria Siha ----->
-
+<!---- Uttimon Direktorion Kategoria Siha ----->
+{| width="60%" style="border:1px solid black"
+|
+<inputbox>
+type=create
+width=45
+</inputbox>
+|}
 [[Category:Wikipedia]]
 
 [[aa:]]
