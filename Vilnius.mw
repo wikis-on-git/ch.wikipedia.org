@@ -1,0 +1,67 @@
+{| border=1 align=right cellpadding=4 cellspacing=0 width=300 style="margin: 0 0 1em 1em; background: #f9f9f9; border: 1px #aaaaaa solid; border-collapse: collapse; font-size: 95%;"
+|+<big><big>'''{{PAGENAME}}'''</big></big><br />''Vilnius''
+|-
+| style="background:#efefef;" align="center" colspan=2 |
+{| border="0" cellpadding="2" cellspacing="0"
+|-
+| align="center" width="140px" | [[File:Grand Coat of arms of Vilnius.png|100px]]
+| align="center" width="140px" | [[File:LietuvaVilnius.png|right|100px]]
+|}
+|-
+| align=center colspan=2 | [[File:Vilnius montage2.jpg|250px]]
+|}
+
+'''Vilnius''', nasong-song gi, capitat [[Lituania]]. Guåha 539,939 na tataogues na populasion i sengsong nu i senso 2014.
+
+== Populasion ==
+<timeline>
+ImageSize = width:900 height:400
+PlotArea = left:50 right:40 top:20 bottom:40
+TimeAxis = orientation:vertical
+AlignBars = justify
+Colors =
+  id:gray1 value:gray(0.7)
+  id:gray2 value:gray(0.9)
+DateFormat = yyyy
+Period = from:0 till:700000
+ScaleMajor = unit:year increment:100000 start:0 gridcolor:gray1
+ScaleMinor = unit:year increment:20000 start:0 gridcolor:gray2
+PlotData =
+  bar:1791 color:gray1 width:1
+   from:0 till:17500 width:15 text:17500 textcolor:red fontsize:8px
+  bar:1811 color:gray1 width:1
+   from:0 till:56300 width:15 text:56300 textcolor:red fontsize:8px
+  bar:1916 color:gray1 width:1
+   from:0 till:140800 width:15 text:140800 textcolor:red fontsize:8px
+  bar:1921 color:gray1 width:1
+   from:0 till:190172 width:15 text:190172 textcolor:red fontsize:8px
+  bar:1939 color:gray1 width:1
+   from:0 till:209400 width:15 text:209400 textcolor:red fontsize:8px
+  bar:1944 color:gray1 width:1
+   from:0 till:110000 width:15 text:110000 textcolor:red fontsize:8px
+  bar:1970 color:gray1 width:1
+   from:0 till:372100 width:15 text:372100 textcolor:red fontsize:8px
+  bar:1989 color:gray1 width:1
+   from:0 till:576700 width:15 text:576700 textcolor:red fontsize:8px
+  bar:2006 color:gray1 width:1
+   from:0 till:541824 width:15 text:541824 textcolor:red fontsize:8px
+  bar:2007 color:gray1 width:1
+   from:0 till:542782 width:15 text:542782 textcolor:red fontsize:8px
+  bar:2008 color:gray1 width:1
+   from:0 till:544206 width:15 text:544206 textcolor:red fontsize:8px
+  bar:2009 color:gray1 width:1
+   from:0 till:546733 width:15 text:546733 textcolor:red fontsize:8px
+  bar:2010 color:gray1 width:1
+   from:0 till:560200 width:15 text:560200 textcolor:red fontsize:8px
+  bar:2011 color:gray1 width:1
+   from:0 till:554060 width:15 text:554060 textcolor:red fontsize:8px
+  bar:2012 color:gray1 width:1
+   from:0 till:554553 width:15 text:554553 textcolor:red fontsize:8px
+</timeline>
+
+== Website Sanhiyong siha ==
+* [http://www.vilnius.lt/ Vilnius] 
+
+{{commons|Vilnius}}
+[[Katigoria:Lituania]]
+[[Katigoria:Dangkulo]]
