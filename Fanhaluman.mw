@@ -4,13 +4,12 @@
 <!---- Tutuhon Direktorion Kategoria Siha ----->
 {{ChamoruWikiMainMenu}}
 <!---- Uttimon Direktorion Kategoria Siha ----->
+<div class="center">
 {| width="60%" style="border:1px solid black"
 |
-<div class="center">
 <inputbox>
 type=create
 width=45
 </inputbox>
-</div>
-|}
+|}</div>
 [[Category:Wikipedia]]
