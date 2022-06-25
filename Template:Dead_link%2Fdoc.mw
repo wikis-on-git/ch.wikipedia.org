@@ -1,0 +1,95 @@
+{{Documentation subpage}}
+{{high-risk|130,000+}}
+<!--Categories where indicated at the bottom of this page, please; interwikis at Wikidata (see [[Wikipedia:Wikidata]])-->
+<!-- Redirect regex: [Dd]ead[ _]+link|[Dd]l|[Dd]eadlink|[Cc]leanup-link|[Dd]l-s|404|[Bb]roken[ _]+link|[Bb]rokenlink -->
+{{Template shortcut|404|dl|dead|Broken link|deadlink}}
+
+== Usage ==
+Editors occasionally encounter [[WP:Linkrot|dead link]]s either within a paragraph or a [[WP:CITE|reference citation]].
+
+Before considering whether to use the {{tl|dead link}} template it is often useful to make a search for an [[Wikipedia:LR#Internet archives|archive copy]] of the dead link and thereby avoid using the tag altogether. All {{tl|cite}} templates have the facility for adding {{para|archivedate}} and {{para|archiveurl}} parameters for linking to an archive copy.
+
+Using {{Tl|Dead link}} will place a note by the URL and add the article to one of the [[:Category:Articles with dead external links]] categories.
+
+Append this template '''directly after''' the link or template, leaving the original link intact. Not doing so will prevent detection from automated tools. If the citation contains multiple URLs (e.g. chapterurl and url) in a template, and only one is broken, you can use <code><nowiki><!-- hidden text --></nowiki></code> to explain which one is broken.
+
+If the article uses [[WP:Footnotes|clickable footnotes]], then this tag should be placed just before the <code>&lt;/ref&gt;</code> that contains the dead link. The notice will then correctly appear in the reference section (instead of in the body of the text, which is not recommended).
+
+Avoid using this template when the reference is fully adequate without the link. In this case, simply remove the link. For example, if a <code>{{tl|cite journal}}</code> template is used with a [[Digital object identifier|DOI]], remove the {{para|url}} parameter.
+
+Avoid using this template to identify dead [[WP:External links|external links]] that are ''not'' used as references for article content. Instead, dead external links should usually be removed. See [[WP:EL#What_can_be_done_with_a_dead_external_link|the guideline for external links]].
+
+;Common form (with current date)
+{{Tlx|Dead link|date{{=}}{{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
+
+=== Optional parameters ===
+;<code>url</code>: Provides a history of the linked page via the [[Wayback Machine]]. Set '''only''' if history actually exists, as otherwise it is misleading to users and editors.
+;<code>date</code>: The date parameter consists of the full English name of the current month with initial capital, a space, and the year, not full dates; e.g., "January 2013", but not "jan13". ''Any deviation from these two rules will result in an "invalid date parameter" error''. For the current date use <code><nowiki>date={{CURRENTMONTHNAME}} {{CURRENTYEAR}}</nowiki></code>. 
+;<code>bot</code>: [[WP:BOTS|Bot accounts]] specify the <code>|bot=</code> parameter as a sign that the tag was added by an automated process. Set as <code>bot=<bot name></code>.
+
+'''Notes''':
+* The date-substitution template may be used to automatically generate the date, e.g., <code><nowiki>{{Dead link|{{subst:DATE}}}}</nowiki></code>. See [[Help:Substitution]] for more information.
+* The <code>date=</code> parameter need not be added by the editor: if not entered, a [[Wikipedia:Bots|bot]] will soon add it. 
+
+== Examples ==
+* <code><nowiki><ref>{{cite web |url=http://www.example.org |title=Roof Waterproofing Services |accessdate=22 September 2012}} {{Dead link |date=September 2012}}</ref></nowiki></code> <br />→ <span style="background:white"><ref>{{cite web |url=https://www.roofpowers.com/ |title=Roof Waterproofing Services |accessdate=22 September 2012}} {{Dead link |date=September 2012}}</ref></span>
+* <code><nowiki><ref>{{cite news |title=Sorrell accuses Murdoch of panic buying |author=Plunkett, John |url=http://media.guardian.co.uk/site/story/0,14173,1601858,00.html |newspaper=[[The Guardian]] |date=27 October 2005 |accessdate=22 September 2012}} {{Dead link}}</ref></nowiki></code> <br />→ <span style="background:white"><ref>{{cite news |title=Sorrell accuses Murdoch of panic buying |author=Plunkett, John |url=http://media.guardian.co.uk/site/story/0,14173,1601858,00.html |newspaper=[[The Guardian]] |date=27 October 2005 |accessdate=22 September 2012}} {{Dead link}}</ref></span>
+
+<references />
+
+=== Caveats ===
+* Avoid using free links (e.g. <code><nowiki>http://www.example.org/{{Dead link}}</nowiki></code>) as software unable to handle templates may read an incorrect link. Add brackets if necessary.
+* Avoid complicated formatting. Nesting inside a template is generally not supported well.  
+* Avoid using <tt>[ ] { | } < ></tt> characters between the end of the external link and <nowiki>{{Dead link}}</nowiki>, as they are often used to format text.
+
+== TemplateData ==
+{{TemplateDataHeader}}
+<templatedata>
+{
+        "description": "A template to indicate that the preceding URL is dead",
+        "params": {
+                "date": {
+                        "label": "Date",
+                        "description": "The month and year the URL was found to be dead, like \"June 2013\"",
+                        "type": "string",
+                        "required": false
+                },
+                "bot": {
+                        "label": "Bot name",
+                        "description": "The name of the bot used to identify the dead link (not used by regular editors)",
+                        "type": "string/wiki-user-name",
+                        "required": false
+                },
+                "url": {
+                        "label": "Wayback URL",
+                        "description": "The dead URL, used only if there is a Wayback Machine archive",
+                        "type": "string",
+                        "required": false
+                }
+        }
+}
+</templatedata>
+
+== See also ==
+* {{Tl|Citation broken}} (inline) to be used when a reference suffers from a more severe problem than a mere [[error 404|broken link]]
+* {{Tl|Citations broken}}
+* {{Tl|Cleanup-bare URLs}} header
+* {{Tl|Registration required}} citation flag
+* {{Tl|Subscription or libraries}} citation flag for when a subscription or library access may be required
+* {{Tl|Subscription required}} citation flag
+* {{Tl|Wayback}} 
+* {{Tl|WebCite}}
+* [[WP:DEADREF|What to do when a reference link goes dead]]
+
+=== Dead link tools ===
+* [[User:Dispenser/Checklinks|Checklinks]]
+* [[User:DeadLinkBOT|DeadLinkBOT]]
+* [[User:WebCiteBOT|WebCiteBOT]]
+
+{{Inline tags}}
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox | |
+<!--Categories below this line, please; interwikis at Wikidata-->
+[[Category:External link maintenance templates]]
+[[Category:Inline citation cleanup templates]]
+}}</includeonly>
