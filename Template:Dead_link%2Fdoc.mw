@@ -32,8 +32,8 @@ Avoid using this template to identify dead [[WP:External links|external links]] 
 * The <code>date=</code> parameter need not be added by the editor: if not entered, a [[Wikipedia:Bots|bot]] will soon add it. 
 
 == Examples ==
-* <code><nowiki><ref>{{cite web |url=http://www.example.org |title=Roof Waterproofing Services |accessdate=22 September 2012}} {{|date=September 2012}}</ref></nowiki></code> <br />→ <span style="background:white"><ref>{{cite web |url=https://www.roofpowers.com/ |title=Roof Waterproofing Services |accessdate=22 September 2012}} {{|date=September 2012}}</ref></span>
-* <code><nowiki><ref>{{cite news |title=Roof Heat Proofing |author=Plunkett, John |url=https://www.roofpowers.com/|newspaper=[[The Guardian]] |date=27 October 2005 |accessdate=22 September 2012}} {{}}</ref></nowiki></code> <br />→ <span style="background:white"><ref>{{cite news |title=Sorrell Roof Heat Proofing |author=Plunkett, John |url=https://www.roofpowers.com/ |newspaper=[[The Guardian]] |date=27 October 2005 |accessdate=22 September 2012}} {{}}</ref></span>
+* <code><nowiki><ref>{{cite web |url=http://www.example.org |title=Web page title |accessdate=22 September 2012}} {{Dead link |date=September 2012}}</ref></nowiki></code> <br />→ <span style="background:white"><ref>{{cite web |url=http://www.example.org |title=Web page title |accessdate=22 September 2012}} {{Dead link |date=September 2012}}</ref></span>
+* <code><nowiki><ref>{{cite news |title=Sorrell accuses Murdoch of panic buying |author=Plunkett, John |url=http://media.guardian.co.uk/site/story/0,14173,1601858,00.html |newspaper=[[The Guardian]] |date=27 October 2005 |accessdate=22 September 2012}} {{Dead link}}</ref></nowiki></code> <br />→ <span style="background:white"><ref>{{cite news |title=Sorrell accuses Murdoch of panic buying |author=Plunkett, John |url=http://media.guardian.co.uk/site/story/0,14173,1601858,00.html |newspaper=[[The Guardian]] |date=27 October 2005 |accessdate=22 September 2012}} {{Dead link}}</ref></span>
 
 <references />
 
